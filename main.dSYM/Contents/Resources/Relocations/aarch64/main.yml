@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/main/programming/study_hse/fcs_se_c/main'
+relocations:     []
+...
