@@ -7,7 +7,15 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c0872b-b0f0-42b7-aecf-ed73871ed985" name="Changes" comment="add task 1" />
+    <list default="true" id="75c0872b-b0f0-42b7-aecf-ed73871ed985" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/calc_operations.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_task" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_task.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +48,12 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3JMZdnoZuNbY5ZDk8doxdbRozrc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectStatusUIService"><![CDATA[{
+  "uiKindId": "Widget"
+}]]></component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +62,7 @@
   "keyToString": {
     "C/C++ File.first_task.c.executor": "Run",
     "C/C++ File.main.c.executor": "Run",
+    "C/C++ File.tests.c.executor": "Run",
     "CidrDebugProfileConversion": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -59,14 +74,14 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/main/programming/study_hse/fcs_se_c",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.first_task.c">
+  <component name="RunManager" selected="C/C++ File.tests.c">
     <configuration name="first_task.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fcs_se_c" TARGET_NAME="first_task.c" CONFIG_NAME="first_task.c">
       <option name="sourceFile" value="first_task.c" />
       <method v="2">
@@ -75,6 +90,12 @@
     </configuration>
     <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fcs_se_c" TARGET_NAME="main.c" CONFIG_NAME="main.c">
       <option name="sourceFile" value="main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fcs_se_c" TARGET_NAME="tests.c" CONFIG_NAME="tests.c">
+      <option name="sourceFile" value="tests.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -157,28 +178,35 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.first_task.c" />
+        <item itemvalue="C/C++ File.tests.c" />
         <item itemvalue="C/C++ File.main.c" />
+        <item itemvalue="C/C++ File.first_task.c" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SelectedDebugProfileService">{
-  &quot;profileIdByStamp&quot;: [
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [
     {
-      &quot;first&quot;: {
-        &quot;##RUN_CONFIGURATION##&quot;: &quot;C/C++ File.main.c&quot;
+      "first": {
+        "##RUN_CONFIGURATION##": "C/C++ File.main.c"
       },
-      &quot;second&quot;: &quot;3914d406-d433-4118-93b4-580d5b34bce9&quot;
+      "second": "3914d406-d433-4118-93b4-580d5b34bce9"
     },
     {
-      &quot;first&quot;: {
-        &quot;##RUN_CONFIGURATION##&quot;: &quot;C/C++ File.first_task.c&quot;
+      "first": {
+        "##RUN_CONFIGURATION##": "C/C++ File.first_task.c"
       },
-      &quot;second&quot;: &quot;3914d406-d433-4118-93b4-580d5b34bce9&quot;
+      "second": "3914d406-d433-4118-93b4-580d5b34bce9"
+    },
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "C/C++ File.tests.c"
+      },
+      "second": "3914d406-d433-4118-93b4-580d5b34bce9"
     }
   ],
-  &quot;modificationCount&quot;: 3
-}</component>
+  "modificationCount": 5
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="75c0872b-b0f0-42b7-aecf-ed73871ed985" name="Changes" comment="" />
@@ -194,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task 1" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
