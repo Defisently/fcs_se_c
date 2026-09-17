@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "calc_operations.c"
+#include "calc_operations.h"
 #include <string.h>
 
-int testing() {
+int main() {
     int res = 0;
     int number1 = 0;
     int number2 = 0;
@@ -25,7 +25,7 @@ int testing() {
         return 0;
     }
     if (calculate(operation, number1, number2, &res)) {
-        printf("Result: %d", res);
+        printf("Result: %d\n", res);
     } else {
         printf("Operation returned false. Please try again.");
     }
