@@ -1,23 +1,25 @@
 #include <stdio.h>
 #include <string.h>
 #include "calc_operations.h"
+#include "calc_operations.c"
+
 
 int input (int *number1, int *number2, char *operation) {
     printf("Input first number, then press enter: ");
     if (scanf("%d", number1) == 0) {
         printf("You entered an invalid symbol. Please try again.");
-        return 0;
+        return INVALID_NUMBER_INPUT;
     }
     printf("Input second number, then press enter: ");
     if (scanf("%d", number2) == 0) {
         printf("You entered an invalid symbol. Please try again.");
-        return 0;
+        return INVALID_NUMBER_INPUT;
     }
 
     printf("Input an operation: * / + -, then press enter: ");
     if (scanf(" %c", operation) != 1 || strchr("*/+-", *operation) == NULL) {
         printf("You entered an invalid operation. Please try again.");
-        return 0;
+        return INVALID_OPERATION_INPUT;
     }
     return 1;
 }
@@ -27,7 +29,7 @@ int output (int number1, int number2, char operation) {
     if (calculate(operation, number1, number2, &res)) {
         printf("Result: %d\n", res);
     } else {
-        printf("Operation returned false. Please try again.");
+        printf("Operation returned false. Please try again.\n");
     }
     return 0;
 }
