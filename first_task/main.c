@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include "calc_operations.h"
-#include <string.h>
 #include "io.h"
 
 int main() {
