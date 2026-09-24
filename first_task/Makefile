@@ -12,7 +12,7 @@ tests: tests.o calc_operations.o
 main.o: main.c io.h calc_operations.h
 io.o: io.c io.h calc_operations.h
 calc_operations.o: calc_operations.c calc_operations.h
-tests.o: tests.c calc_operations.h
+tests.o: tests.c calc_operations.h main.o
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
