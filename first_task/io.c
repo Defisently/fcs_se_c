@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include "calc_operations.h"
-#include "calc_operations.c"
 
 
 int input (int *number1, int *number2, char *operation) {
