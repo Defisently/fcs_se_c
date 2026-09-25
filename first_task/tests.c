@@ -24,6 +24,11 @@ bool check(char input[60]) {
     bool first_number = false;
     bool second_number = false;
     char operation = '\0';
+
+    if (input == NULL) {
+        return false;
+    }
+
     for (int i = 0; i < 60 && input[i] != '\0'; i++) {
         if (input[i] == ' ') {
             continue;
@@ -58,8 +63,7 @@ bool check(char input[60]) {
 }
 
 int tests(void) {
-    int number1, number2 = 0;
-    int ans = 0;
+    int number1 = 0, number2 = 0, ans = 0;
     char operation = '\0';
     char buffer[60];
     FILE *fp = fopen("tests.txt", "r");

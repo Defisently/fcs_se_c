@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include <stddef.h>
 
 enum ERROR_CODES {
     DIVISION_BY_ZERO = 0,
@@ -22,6 +23,9 @@ int subtract (int number1, int number2) {
 }
 
 bool calculate(char operation, int number1, int number2, int *out_result) {
+    if (out_result == NULL) {
+        return false;
+    }
     if (operation == '+') {
         *out_result = sum(number1, number2);
         return true;
